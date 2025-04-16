@@ -10,6 +10,7 @@ interface LoginPayloadType {
 }
 
 class AuthController {
+  
   static async login(req: Request, res: Response) {
     try {
       //get request from front end
